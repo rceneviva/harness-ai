@@ -1,0 +1,7 @@
+[
+  {"tool": "ler_dados",
+   "args": {"path": "participantes/dados/chuva_rs_2018_2025_exercicio.csv"}},
+  {"tool": "gravar_saida",
+   "args": {"path": "participantes/saida/resumo.json",
+            "conteudo": "{\"media_precipitacao_mm\": 0.0}"}}
+]
