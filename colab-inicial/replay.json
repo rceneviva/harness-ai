@@ -1,0 +1,19 @@
+{
+  "tipo": "replay_preparado",
+  "descricao": "Propostas fixas; sem chamada a modelo.",
+  "acoes": [
+    {
+      "tool": "ler_dados",
+      "args": {
+        "path": "dados/chuva_rs_2018_2025_exercicio.csv"
+      }
+    },
+    {
+      "tool": "gravar_saida",
+      "args": {
+        "path": "saida/resumo.json",
+        "conteudo": "{\"media_precipitacao_mm\": 151.7622034117935}"
+      }
+    }
+  ]
+}
